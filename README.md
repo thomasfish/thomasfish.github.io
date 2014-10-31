@@ -1,3 +1,3 @@
-thomasfish.github.io
+thomas.fish
 ====================
 My personal website.
