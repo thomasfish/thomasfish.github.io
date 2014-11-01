@@ -10,12 +10,12 @@ relative_permalinks: true
 title:            ThomasFish
 tagline:          'Hello, nice to meet you.'
 description:      'Thomas&39 personal blog.'
-url:              http://hyde.getpoole.com
+url:              http://thomas.fish
 baseurl:          /
 
 author:
-  name:           'Mark Otto'
-  url:            https://twitter.com/mdo
+  name:           'Thomas Fish'
+  url:            http://thomas.fish
 
 paginate:         5
 
