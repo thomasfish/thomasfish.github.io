@@ -7,9 +7,9 @@ permalink:        pretty
 relative_permalinks: true
 
 # Setup
-title:            ThomasFish
+title:            Thomas Fish
 tagline:          'Hello, nice to meet you.'
-description:      'Thomas&39 personal blog.'
+description:      'Thomas' personal blog.'
 url:              http://thomas.fish
 baseurl:          /
 
