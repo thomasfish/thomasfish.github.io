@@ -9,7 +9,7 @@
 
 /* Section 1 - Description */
 .top {
-  padding: 1vw;
+  padding: 5vw;
 }
 
 .top * {
@@ -37,12 +37,21 @@
 }
 
 /* Section 2 - Images */
+.imgs {
+  background: #fff;
+  padding-top: 0.3vw;
+}
 .large {
   width: 50vw;
+  height: 28.8vw;
 }
 .small-top {
-  width: 25vw;
+  width: 24vw;
+  position: relative;
+  top: -14.4vw;
 }
 .small-bottom {
-  width: 25vw;
+  width: 24vw;
+  position: relative;
+  top: -14.4vw;
 }
