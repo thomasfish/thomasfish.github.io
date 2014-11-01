@@ -65,3 +65,12 @@
   top: -14.3vw;
   left: 50.3vw;
 }
+.description h3 {
+  margin: 1vw;
+  font-size: 4vw;
+  font-weight: 400;
+}
+.description p {
+  margin: 1vw;
+  font-size: 2vw;
+}
