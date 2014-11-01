@@ -102,9 +102,10 @@
   background: #DD4B39;
 }
 .email {
-  background: #777;
+  background: #aaa;
   font-family: "Segoe UI Symbol";
-  padding-top: 2vw;
+  
+  margin-top: 0.1vw;
 }
 .github {
   background: #333;
