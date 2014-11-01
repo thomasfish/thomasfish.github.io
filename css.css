@@ -35,3 +35,14 @@
   font-style: italic;
   font-size: 2.5vw;
 }
+
+/* Section 2 - Images */
+.large {
+  width: 50vw;
+}
+.small-top {
+  width: 25vw;
+}
+.small-bottom {
+  width: 25vw;
+}
