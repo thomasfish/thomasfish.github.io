@@ -55,3 +55,13 @@
   position: relative;
   top: -14.4vw;
 }
+.description {
+  background: #ddd;
+  height: 14vw;
+  width: 48.3vw;
+  
+  display: inline-block;
+  position: relative;
+  top: -14.3vw;
+  left: 50.3vw;
+}
