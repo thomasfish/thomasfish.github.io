@@ -1,7 +1,10 @@
+@import url(http://fonts.googleapis.com/css?family=Droid+Serif:400,400italic);
+
 /* Reset */
 * {
   margin: 0;
   padding: 0;
+  font-family: "Droid Serif"
 }
 
 /* Section 1 - Description */
@@ -23,5 +26,12 @@
 }
 
 .top h1 {
-  
+  font-weight: 400;
+  font-size: 4vw;
+}
+
+.top h2 {
+  font-weight: 400;
+  font-style: italic;
+  font-size: 2.5vw;
 }
