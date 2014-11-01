@@ -105,7 +105,8 @@
   background: #aaa;
   font-family: "Segoe UI Symbol";
   
-  margin-top: 0.1vw;
+  margin-top: 1vw;
+  height: 2vw;
 }
 .github {
   background: #333;
