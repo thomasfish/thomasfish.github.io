@@ -77,6 +77,9 @@
 }
 
 /* Section 3 - Social */
+.social {
+  margin-bottom: 2vw;
+}
 .social div {
   display: inline-block;
   width: 33%;
@@ -85,7 +88,6 @@
   font-size: 6vw;
   padding-top: 3vw;
   padding-bottom: 3vw;
-  margin-bottom: 2vw;
 }
 .twitter {
   background: #55ACEE;
@@ -102,6 +104,7 @@
 .email {
   background: #777;
   font-family: "Segoe UI Symbol";
+  padding-top: 2.5vw;
 }
 .github {
   background: #333;
