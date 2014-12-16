@@ -1,110 +1,59 @@
-@import url(http://fonts.googleapis.com/css?family=Droid+Serif:400,400italic);
+@import url(http://fonts.googleapis.com/css?family=Quicksand:400,700);
 
-/* Reset */
 * {
-  margin: 0;
   padding: 0;
-  font-family: "Droid Serif"
-}
-
-/* Section 1 - Description */
-.top {
-  padding: 5vw;
-}
-
-.top * {
-  text-align: center;
-}
-
-.logo {
-  width: 10vw;
-  border-radius: 10vw;
+  margin: 0;
   
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+  font-family: "Quicksand";
+  text-transform: uppercase;
 }
 
-.top h1 {
-  font-weight: 400;
-  font-size: 4vw;
+.header {
+  background: #fcfcfc;
+  padding: 10px;
 }
 
-.top h2 {
-  font-weight: 400;
-  font-style: italic;
-  font-size: 2.5vw;
-}
-
-/* Section 2 - Images */
-.imgs {
-  background: #fff;
-  padding-top: 0.3vw;
-  height: 30vw;
-}
-.large {
-  width: 50vw;
-  height: 28.8vw;
-}
-.small-top {
-  width: 24vw;
-  position: relative;
-  top: -14.4vw;
-}
-.small-bottom {
-  width: 24vw;
-  position: relative;
-  top: -14.4vw;
-}
-.description {
-  background: #efefef;
-  height: 14vw;
-  width: 48.3vw;
+.title {
+  font-weight: normal;
+  font-size: 80px;
   
-  display: inline-block;
-  position: relative;
-  top: -14.3vw;
-  left: 50.3vw;
-}
-.description h3 {
-  margin: 1vw;
-  font-size: 4vw;
-  font-weight: 400;
-}
-.description p {
-  margin: 1vw;
-  font-size: 2vw;
+  text-decoration: none;
+  color: #000;
 }
 
-/* Section 3 - Social */
-.social {
-  margin-bottom: 2vw;
+.jumbotron {
+  background: url("imgs/bg.png");
+  background-size: 100vw auto;
+  background-attachment: fixed;
+  padding: 180px;
 }
-.social div {
+
+.jumbotron h2 {
+  font-weight: normal;
+  font-size: 70px;
+  
+  padding: 20px;
   display: inline-block;
-  width: 33%;
-  text-align: center;
-  color: #fff;
-  font-size: 6vw;
-  padding-top: 3vw;
-  padding-bottom: 3vw;
-  margin-top: 0.5vw;
+  background: rgba(255,255,255,0.5);
 }
-.twitter {
-  background: #55ACEE;
+
+.links {
+  background: url("imgs/bg2.png");
+  background-size: 100vw auto;
+  background-attachment: fixed;
+  padding: 180px;
 }
-.youtube {
-  background: #CC181E;
+
+.links h2 {
+  font-weight: normal;
+  font-size: 70px;
+  
+  padding: 20px;
+  display: inline-block;
+  background: rgba(255,255,255,0.5);
 }
-.scratch {
-  background: #FB9600;
-}
-.gplus {
-  background: #DD4B39;
-}
-.email {
-  background: #aaa;
-}
-.github {
-  background: #333;
+
+.links a {
+  text-decoration: none;
+  color: #666;
 }
