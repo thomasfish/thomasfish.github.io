@@ -1,0 +1,84 @@
+@import url(http://weloveiconfonts.com/api/?family=zocial);
+
+/* zocial */
+[class*="zocial-"]:before {
+  font-family: 'zocial', sans-serif;
+}
+
+::-moz-selection { /* Code for Firefox */
+  color: #fff;
+  background: #502;
+}
+
+::selection {
+  color: #fff;
+  background: #502;
+}
+::-webkit-scrollbar {
+  width: 12px;
+}
+::-webkit-scrollbar-track {
+  background: #502;
+}
+::-webkit-scrollbar-thumb {
+  background: #fff;
+}
+* {
+  margin: 0;
+  padding: 0;
+  font-weight: 400;
+}
+body {
+  font-family: Nunito, sans-serif;
+}
+.top {
+  height: 95vh;
+  background: #502;
+  color: #fff;
+  padding: 5vh 3vw 0 3vw;
+}
+.top h1 {
+  font-family: Sacramento, cursive;
+  font-size: 18vw;
+  text-align: center;
+}
+.top h3 {
+  font-size: 5vw;
+  text-align: left;
+}
+.top h2 {
+  font-size: 5vw;
+  text-align: right;
+}
+.me {
+  color: #502;
+  padding: 10vw;
+}
+.me h4 {
+  font-size: 10vw;
+}
+.me p {
+  font-size: 4vw;
+}
+.games {
+  background: #502;
+  color: #fff;
+  padding: 10vw;
+}
+.games p {
+  font-size: 5vw;
+}
+.social a {
+  display: inline-block;
+  width: 32%;
+  color: #502;
+  font-size: 8vw;
+  text-align: center;
+  padding: 2vw 0;
+  text-decoration: none;
+  border-left: solid #502 0.5vw;
+}
+.social a:hover {
+  background: #502;
+  color: #fff;
+}
