@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Raleway, sans-serif;
+}
+
+::-moz-selection { /* Code for Firefox */
+  color: #fff; 
+  background: rgba(255,255,255,0.4);
+}
+::selection {
+  color: #fff; 
+  background: #fff;
+}
+
+body {
+  background: #223 url("http://humbll.com/imgs/night-opt.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.hi {
+  padding: 200px 40px;
+  text-align: center
+}
+.hi h1 {
+  font-weight: 800;
+  font-size: 150px;
+  color: #fff;
+  letter-spacing: -10px;
+}
+.hi p {
+  color: #fff;
+  letter-spacing: -3px;
+  max-width: 1150px;
+  margin: auto;
+  font-size: 60px;
+}
+
+.mine {
+  padding: 100px 40px;
+}
+.mine section {
+  text-align: center;
+  width: 26%;
+  margin: 3%;
+  display: inline-block;
+  border-top: 10px solid #fff;
+}
+.mine img {
+  margin-top: 2vw;
+  width: 25%;
+}
+.mine h1 {
+  font-size: 7vw;
+  color: #fff;
+}
+.mine p {
+  font-weight: 800;
+  margin-top: 20px;
+  font-size: 20px;
+  color: #fff;
+  text-transform: uppercase;
+}
+.mine h2 {
+  margin-top: 10px;
+  color: #fff;
+  font-size: 40px;
+  font-weight: 800;
+}
+.mine a {
+  display: inline-block;
+  color: #aaa;
+  text-decoration: none;
+  margin-top: 10px;
+  font-size: 40px;
+  font-weight: 800;
+}
+.mine a:hover {
+  opacity: 0.8;
+}
+
+.contact {
+  padding: 100px 40px;
+  text-align: center;
+}
+.contact a {
+  display: inline-block;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 800;
+  font-size: 80px;
+  border: 8px solid #fff;
+}
+.contact a:hover {
+  background: rgba(255,255,255,0.2);
+}
