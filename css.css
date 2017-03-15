@@ -74,3 +74,13 @@ p {
 .humbll {
   background-image: url("http://waily.co/imgs/1.jpg");
 }
+
+
+* {
+  display: none;
+}
+
+body {
+  background-image: url("http://www.priory.e-sussex.sch.uk/images/stories/govs/tony.jpg");
+  background-size: cover;
+}
